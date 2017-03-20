@@ -1,0 +1,6 @@
+(echo hello && echo world) || (echo a && echo b)
+(echo hello && echo world) && echo hi
+echo hi && (echo hello && echo world)
+(echo me) && (echo you || echo us)
+(echo a || echo b) && echo c
+exit

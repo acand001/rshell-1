@@ -1,0 +1,13 @@
+cat < input
+cat < input > output
+cat < input >> output2
+cat < output > input
+ls > output
+echo arrgh > output2
+pwd > output3
+echo arrgh output2 > output2
+cat < output1 > output2
+ls >> output
+pwd >> output2
+cat < output1 >> output2
+exit

@@ -1,0 +1,3 @@
+echo hello #this is a commented
+echo world # should still be a comment
+exit

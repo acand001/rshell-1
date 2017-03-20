@@ -1,0 +1,6 @@
+cat < input | tr A-Z a-z | tee output
+ls | wc
+echo test | wc
+cat < input | wc > output
+pwd | wc
+exit

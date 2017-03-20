@@ -1,0 +1,6 @@
+test -e rshell
+[ -e rshell ]
+test -e rshell
+[ -e rshell ]
+[ rshell ] && echo found
+exit
